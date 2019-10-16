@@ -5,12 +5,10 @@ import {inject} from '@loopback/core';
 
 export class PersonaRepository extends DefaultCrudRepository<
   Persona,
-  typeof Persona.prototype.Name,
+  typeof Persona.prototype.nombre,
   PersonaRelations
 > {
-  constructor(
-    @inject('datasources.db') dataSource: DbDataSource,
-  ) {
+  constructor(@inject('datasources.db') dataSource: DbDataSource) {
     super(Persona, dataSource);
   }
 }

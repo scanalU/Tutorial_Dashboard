@@ -8,7 +8,7 @@ export class Persona extends Entity {
     required: true,
     generated: false,
   })
-  Name: string;
+  nombre: string;
 
   @property({
     type: 'string',
@@ -20,8 +20,7 @@ export class Persona extends Entity {
     type: 'string',
     required: true,
   })
-  role: string;
-
+  rol: string;
 
   constructor(data?: Partial<Persona>) {
     super(data);

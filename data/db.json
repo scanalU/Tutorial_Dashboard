@@ -1,15 +1,16 @@
 {
   "ids": {
-    "Persona": 9
+    "Persona": 10
   },
   "models": {
     "Persona": {
-      "Sergi": "{\"Name\":\"Sergi\",\"pass\":\"SSS\",\"role\":\"admin\"}",
-      "Roger": "{\"Name\":\"Roger\",\"pass\":\"RRR\",\"role\":\"user\"}",
-      "Pau": "{\"Name\":\"Pau\",\"pass\":\"PPP\",\"role\":\"user\"}",
-      "Paula": "{\"Name\":\"Paula\",\"pass\":\"PPP\",\"role\":\"user\"}",
-      "Laura": "{\"Name\":\"Laura\",\"pass\":\"LLL\",\"role\":\"user\"}",
-      "Alba": "{\"Name\":\"Alba\",\"pass\":\"AAA\",\"role\":\"user\"}"
+      "Sergi": "{\"nombre\":\"Sergi\",\"pass\":\"SSS\",\"rol\":\"Profesor\"}",
+      "Roger": "{\"nombre\":\"Roger\",\"pass\":\"RRR\",\"rol\":\"Alumno\"}",
+      "Pau": "{\"nombre\":\"Pau\",\"pass\":\"PPP\",\"rol\":\"Alumno\"}",
+      "Paula": "{\"nombre\":\"Paula\",\"pass\":\"PPP\",\"rol\":\"Alumno\"}",
+      "Laura": "{\"nombre\":\"Laura\",\"pass\":\"LLL\",\"rol\":\"Alumno\"}",
+      "Alba": "{\"nombre\":\"Alba\",\"pass\":\"AAA\",\"rol\":\"Alumno\"}",
+      "aaaaaa": "{\"nombre\":\"aaaaaa\",\"pass\":\"aaa\",\"rol\":\"Alumno\"}"
     }
   }
 }
